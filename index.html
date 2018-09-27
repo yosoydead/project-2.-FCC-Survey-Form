@@ -1,0 +1,48 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <h1 id="title">My Survey Form</h1>
+    <div id="form-outer">
+        <p id="description">Let me know what you think about programming</p>
+
+        <form id="survey-form" method="GET">
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="name">* Name:</label>
+                </div>
+                <div class="rightTab">
+                        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                    </div>
+            </div>
+            
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="email">* Email:</label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="Age">* Age:</label>
+                </div>
+                <div class="rightTab">
+                        <input autofocus type="number" name="age" id="number" 
+                        class="input-field" placeholder="Age" required
+                        min="1" max = "90">
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
