@@ -21,3 +21,4 @@ To do's:
 17. [x] 17. You can build your project by forking this [CodePen](https://codepen.io/freeCodeCamp/pen/MJjpwO) pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 
 For the background and submit button color I used a small tool at [this](www.darkart.com/cgi-bin/colors.cgi) page.
+Also, [click here](https://codepen.io/yosoydead/pen/gBOYJj) for the codepen page.
