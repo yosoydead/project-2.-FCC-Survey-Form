@@ -16,6 +16,8 @@ To do's:
 12. [x] 12. Inside the form element, I can select an option from a dropdown that has a corresponding ```id="dropdown"```.
 13. [x] 13. Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the ```name``` attribute.
 14. [x] 14. Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
-15. [] 15. Inside the form element, I am presented with a ```textarea``` at the end for additional comments.
-16. [] 16. Inside the form element, I am presented with a button with ```id="submit"``` to submit all my inputs.
-17. [] 17. You can build your project by forking this [CodePen](https://codepen.io/freeCodeCamp/pen/MJjpwO) pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+15. [x] 15. Inside the form element, I am presented with a ```textarea``` at the end for additional comments.
+16. [x] 16. Inside the form element, I am presented with a button with ```id="submit"``` to submit all my inputs.
+17. [x] 17. You can build your project by forking this [CodePen](https://codepen.io/freeCodeCamp/pen/MJjpwO) pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+For the background and submit button color I used a small tool at [this](www.darkart.com/cgi-bin/colors.cgi) page.
