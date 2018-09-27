@@ -41,6 +41,42 @@
                         min="1" max = "90">
                 </div>
             </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="currentPos">What position do you occupy at the moment ?</label>
+                </div>
+                <div class="rightTab">
+                    <select id="dropdown" name="currentPos" class="dropdown">
+                        <option disabled value>Select an option</option>
+                        <option value="student">Student</option>
+                        <option value="fullJob">Full time job</option>
+                        <option value="partJob">Part time job</option>
+                        <option value="unemployed">Unemployed</option>
+                        <option value="preferNo">Prefer not to say</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="opinion">* What do you think about programming ?</label>
+                </div>
+                <div class="rightTab">
+                    <ul style="list-style: none">
+                        <li class="radio"><label>Helpful <input name="radio-buttons" value="1" type="radio" class="userChoice">
+                            </label>
+                        </li>
+                        <li class="radio"><label>Not that helpful <input name="radio-buttons" value="1" type="radio" class="userChoice">
+                            </label>
+                        </li>
+                        <li class="radio"><label>I don't know <input name="radio-buttons" value="1" type="radio" class="userChoice">
+                            </label>
+                        </li>
+
+                    </ul>   
+                </div>
+            </div>
         </form>
     </div>
     
